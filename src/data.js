@@ -11,8 +11,8 @@ export const projects = [
       title: "Sheetmetal Job Tracker",
       subtitle: "React and Python",
       description:
-        "A website ment to track jobs for a sheetmetal shop. This application was built using EJS to render different templates on the frontend, then utilizing Express and mongo in the backend for a data base",
-      image: "https://i.imgur.com/eMwE33i.jpg",
+        "A website ment to track jobs for a sheetmetal shop. Built using EJS to render templates on the frontend, Express and mongo in the backend",
+      image: "https://i.imgur.com/Eu8eblk.jpg",
       link: "https://projecttwo.onrender.com",
     },
     {

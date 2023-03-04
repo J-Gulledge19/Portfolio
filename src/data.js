@@ -26,3 +26,18 @@ export const projects = [
   ];
 
 export const skills = [ "Javascript", "React", "Node", "Python", "Django", "Express", "HTML", "CSS", "MongoDB", ]
+
+export const testimonials = [
+    {
+        quote:"",
+        image:"",
+        name: "",
+        company: ""
+    },
+    {
+        quote:"",
+        image:"",
+        name: "",
+        company: ""
+    },
+]

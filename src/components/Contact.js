@@ -67,7 +67,7 @@ export default function Contact() {
             Hire Me
           </h2>
           <p className="leading-relaxed mb-5">
-            I would appriciate any opportunity or feed back you may have for me feel free to reach out! Have a great day! 
+            I would appriciate any opportunity or feed back you may have. Feel free to reach out and have a great day! 
           </p>
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">

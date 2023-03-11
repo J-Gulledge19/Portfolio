@@ -5,7 +5,7 @@ export const projects = [
       description:
         "This application is designed to log your favorite dives. It is build with a React frontend, while using a Python/Django as the backend. ",
       image: "https://i.imgur.com/FWwQgws.jpg",
-      link: "https://effortless-gumption-d50375.netlify.app/",
+      link: "https://divelogtracker.netlify.app/",
     },
     {
       title: "Sheetmetal Job Tracker",

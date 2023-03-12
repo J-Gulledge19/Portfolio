@@ -25,7 +25,46 @@ export const projects = [
     },
   ];
 
-export const skills = [ "Javascript", "React", "Node", "Python", "Django", "Express", "HTML", "CSS", "MongoDB", ]
+// export const skills = [ "Javascript", "React", "Node", "Python", "Django", "Express", "HTML", "CSS", "MongoDB", ]
+
+export const skills = [
+  {
+      skill:"Javascript",
+      image:"https://icon-library.com/images/javascript-icon-png/javascript-icon-png-23.jpg"
+  },
+  {
+      skill:"React",
+      image:"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/640px-React-icon.svg.png"
+  },
+  {
+    skill:"Node",
+    image:"https://cdn-icons-png.flaticon.com/512/919/919825.png"
+  },
+  {
+    skill:"Python",
+    image:"https://www.svgrepo.com/show/376344/python.svg"
+  },
+  {
+    skill:"Django",
+    image:"https://www.svgrepo.com/show/353657/django-icon.svg"
+  },
+  {
+    skill:"Express",
+    image:"https://www.nextontop.com/assets/img/services/web/expressjs.svg"
+  },
+  {
+    skill:"HTML",
+    image:"https://cdn.iconscout.com/icon/free/png-256/html5-40-1175193.png"
+  },
+  {
+    skill:"CSS",
+    image:"https://cdn.cdnlogo.com/logos/c/18/css.svg"
+  },
+  {
+    skill:"MongoDB",
+    image:"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Antu_mongodb.svg/2048px-Antu_mongodb.svg.png"
+  },
+]
 
 export const testimonials = [
     {

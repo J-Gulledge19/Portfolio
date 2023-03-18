@@ -49,10 +49,10 @@ body {
 }
 
 button:hover{
-border: 2px solid #104F55;
+border: 2px solid #101055;
 background-color: rgba(365,365,365,0.5);
 cursor: pointer;
-color: #104F55;
+color: #551010;
 opacity: .8;
 transition: .3s;
 box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);

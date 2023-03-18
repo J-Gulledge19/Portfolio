@@ -67,16 +67,22 @@ export const skills = [
 ]
 
 export const testimonials = [
-    {
-        quote:"",
-        image:"",
-        name: "",
-        company: ""
+      {
+        quote:"Josh masters new material easily and often completes bonus work for extra practice. He works well within groups and goes above and beyond for projects. I think his positive attitude and willingness to be courageous and ask questions would make him a great addition to any development team.",
+        image:"https://i.imgur.com/lhW2KN7.jpg",
+        name: "Kyle Canamar",
+        company: "General Assembly"
     },
-    {
-        quote:"",
-        image:"",
-        name: "",
-        company: ""
-    },
+    // {
+    //     quote:"",
+    //     image:"https://i.imgur.com/QhUIK0k.jpg",
+    //     name: "Hisham Raihan",
+    //     company: "General Assembly"
+    // },
+    // {
+    //     quote:"",
+    //     image:"https://i.imgur.com/i9Fk7VQ.jpg",
+    //     name: "David Yim",
+    //     company: "General Assembly"
+    // },
 ]

@@ -73,16 +73,16 @@ export const testimonials = [
         name: "Kyle Canamar",
         company: "General Assembly"
     },
+    {
+        quote:'"I am writing to highly recommend Joshua for a role in software development. I have had the pleasure of teaching Joshua at General Assembly, and can confidently say that Joshua possesses the skills and drive necessary to excel in this field."',
+        image:"https://i.imgur.com/i9Fk7VQ.jpg",
+        name: "David Yim",
+        company: "Route Smart Technologies and General Assembly"
+    },
     // {
     //     quote:'""',
     //     image:"https://i.imgur.com/QhUIK0k.jpg",
     //     name: "Hisham Raihan",
-    //     company: "General Assembly"
-    // },
-    // {
-    //     quote:'""',
-    //     image:"https://i.imgur.com/i9Fk7VQ.jpg",
-    //     name: "David Yim",
     //     company: "General Assembly"
     // },
 ]

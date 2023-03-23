@@ -7,10 +7,28 @@ export default function About() {
                 Hi, I'm Josh.
                 <br className="hidden lg:inline-block" /> I enjoy problem solving and building new applications.
               </h1>
-              <p className="mb-8 leading-relaxed">
+              <p className="mb-8 leading-relaxed mt-10 mb-10">
               I am a Full Stack Software Engineer who embraces challenges that rely heavily on my 10+ years of experience in problem solving and deductive reasoning. With a strong foundation of adaptability, creativity and collaboration,  I am looking to transition my proven analytical skills into the digital sector where I can continue to create and expand knowledge in software development.
               </p>
               <div className="flex justify-center">
+                <a 
+                  href="https://www.linkedin.com/in/joshgulledge/"
+                  className="inline-flex text-white bg-blue-900 border-0 py-2 px-4 focus:outline-none hover:bg-sky-600 rounded text-md mr-2">
+                  My LinkedIn
+                </a>
+                <a 
+                  href="https://github.com/J-Gulledge19"
+                  className="inline-flex text-white bg-blue-900 border-0 py-2 px-4 focus:outline-none hover:bg-sky-600 rounded text-md mr-2">
+                  My GitHub
+                </a>
+                <a 
+                  href="https://docs.google.com/document/d/1Q2D7sv1Lea7w44XFhEabS5TpRDWhgKoIZ8oWKgwOBxw/edit?usp=sharing"
+                  className="inline-flex text-white bg-blue-900 border-0 py-2 px-4 focus:outline-none hover:bg-sky-600 rounded text-md mr-2">
+                  My Resume
+                </a>
+              </div>
+              <br></br>
+              {/* <div className="flex justify-center">
                 <a
                   href="#contact"
                   className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
@@ -21,7 +39,7 @@ export default function About() {
                   className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
                   See My Projects
                 </a>
-              </div>
+              </div> */}
             </div>
             <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
               <img

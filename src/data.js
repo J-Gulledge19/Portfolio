@@ -1,5 +1,13 @@
 export const projects = [
     {
+      title: "Vehicle Maintenance",
+      subtitle: "React/Typescript and Django",
+      description:
+        "A site design to track your vehicles maintenance. Designed using React-Typescript with mobx in the frontend, and Python/Django in the backend.",
+      image: "https://i.imgur.com/4REvOCi.jpg",
+      link: "https://myautomaintenance.netlify.app/",
+    },
+    {
       title: "Dive Log",
       subtitle: "React and Python",
       description:
@@ -9,7 +17,7 @@ export const projects = [
     },
     {
       title: "Sheetmetal Job Tracker",
-      subtitle: "React and Python",
+      subtitle: "Javascript and EJS",
       description:
         "A website ment to track jobs for a sheetmetal shop. Built using EJS to render templates on the frontend, Express and mongo in the backend",
       image: "https://i.imgur.com/Eu8eblk.jpg",

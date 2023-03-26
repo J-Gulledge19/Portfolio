@@ -7,7 +7,7 @@ export default function Testimonials() {
     <section id="testimonials">
       <div className="container px-5 py-10 mx-auto text-center">
         <FaUsers className="w-12 h-20 inline-block mb-4" />
-        <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-12">
+        <h1 className="sm:text-4xl text-3xl font-medium title-font text-stone-300 mb-12">
           Testimonials
         </h1>
         <div className="flex flex-wrap m-4">

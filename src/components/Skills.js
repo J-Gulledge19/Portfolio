@@ -8,10 +8,10 @@ export default function Skills() {
       <div className="container px-5 py-10 mx-auto">
         <div className="text-center mb-20">
           <GiSkills className="w-12 h-20 inline-block mb-4 mt-20" />
-          <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
+          <h1 className="sm:text-4xl text-3xl font-medium title-font text-stone-300 mb-4">
             Skills &amp; Technologies
           </h1>
-          <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
+          <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-stone-300">
             Ya I got skills what are you going to do about it.
           </p>
         </div>

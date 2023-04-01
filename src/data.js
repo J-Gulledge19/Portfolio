@@ -87,10 +87,10 @@ export const testimonials = [
         name: "David Yim",
         company: "Route Smart Technologies and General Assembly"
     },
-    // {
-    //     quote:'""',
-    //     image:"https://i.imgur.com/QhUIK0k.jpg",
-    //     name: "Hisham Raihan",
-    //     company: "General Assembly"
-    // },
+    {
+        quote:'"Throughout his time with us, Josh has consistently displayed a high level of academic prowess and intellectual curiosity. He has an exceptional ability to grasp complex concepts and ideas, and he has always been willing to go above and beyond what is expected of him to deepen his understanding of the subject matter. Beyond his academic achievements, Josh is a true team player and has been an asset to our school community. He is a natural leader who leads by example and is always willing to lend a helping hand to his peers. Josh has a remarkable ability to bring people together and foster a sense of unity and collaboration among his classmates. In summary, Josh is an outstanding student who has excelled both academically and personally during his time with us at GA. He is a true inspiration to his peers, and we are confident that he will continue to achieve great things in the future. We are proud to have had the opportunity to teach and learn from such a talented young person."',
+        image:"https://i.imgur.com/QhUIK0k.jpg",
+        name: "Hisham Raihan",
+        company: "General Assembly"
+    },
 ]

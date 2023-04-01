@@ -12,15 +12,12 @@ export default function Projects() {
             Projects
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-stone-300">
-            Here are some applications I have built using different frameworks and languages.
+            Here are some applications I have built using different frameworks and languages.<br></br> Hover over images to see a small description of each site and the technologies used.
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
           {projects.map((project) => (
-            <a
-              href={project.link}
-              key={project.image}
-              className="sm:w-1/2 w-100 p-4">
+            <div className="sm:w-1/2 w-100 p-4">
               <div className="flex relative">
                 <img
                   alt="gallery"
@@ -37,7 +34,21 @@ export default function Projects() {
                   <p className="leading-relaxed">{project.description}</p>
                 </div>
               </div>
-            </a>
+                <a href={project.link}>
+                  <button class="relative inline-flex items-center justify-center p-0.5 mt-2 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-cyan-500 to-blue-500 group-hover:from-cyan-500 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-cyan-200 dark:focus:ring-cyan-800">
+                    <span class="relative px-4 py-1.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+                      Live Link
+                    </span>
+                  </button>
+                </a>
+                <a href={project.github}>
+                  <button onClick={project.github} class="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-cyan-500 to-blue-500 group-hover:from-cyan-500 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-cyan-200 dark:focus:ring-cyan-800">
+                    <span class="relative px-4 py-1.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+                    GitHub
+                    </span>
+                  </button>
+                </a>
+             </div>
           ))}
         </div>
       </div>

@@ -4,8 +4,9 @@ export const projects = [
       subtitle: "React/Typescript and Django",
       description:
         "A site design to track your vehicles maintenance. Designed using React-Typescript with mobx in the frontend, and Python/Django in the backend.",
-      image: "https://i.imgur.com/4REvOCi.jpg",
+      image: "https://i.imgur.com/1i1PXbV.jpg",
       link: "https://myautomaintenance.netlify.app/",
+      github: "https://github.com/J-Gulledge19/Automaintenencetracker",
     },
     {
       title: "Dive Log",
@@ -14,6 +15,7 @@ export const projects = [
         "This application is designed to log your favorite dives. It is build with a React frontend, while using a Python/Django as the backend. ",
       image: "https://i.imgur.com/FWwQgws.jpg",
       link: "https://divelogtracker.netlify.app/",
+      github: "https://github.com/J-Gulledge19/DiveLogFrontend",
     },
     {
       title: "Sheetmetal Job Tracker",
@@ -22,6 +24,7 @@ export const projects = [
         "A website ment to track jobs for a sheetmetal shop. Built using EJS to render templates on the frontend, Express and mongo in the backend",
       image: "https://i.imgur.com/Eu8eblk.jpg",
       link: "https://projecttwo.onrender.com",
+      github: "https://github.com/J-Gulledge19/Project-Two",
     },
     {
       title: "NHL Stats App",
@@ -30,6 +33,7 @@ export const projects = [
         "An application to check current stats for your favorite NHL teams. This is built using Javascript, HTML, CSS, and a API",
       image: "https://i.imgur.com/eo7Cuml.jpg",
       link: "https://j-gulledge19.github.io/NHLStatsApp/",
+      github: "https://github.com/J-Gulledge19/NHLStatsApp",
     },
   ];
 

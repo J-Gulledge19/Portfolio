@@ -97,4 +97,10 @@ export const testimonials = [
         name: "Hisham Raihan",
         company: "General Assembly"
     },
+    {
+      quote:'"I have had the pleasure of working alongside Josh for 2 years. In that time, I have seen him consistently demonstrate professionalism, dedication, and a deep commitment to his work. His attention to detail and ability to think critically has led to numerous successful projects for our team. Moreover, Josh is an excellent collaborator and team player. He is always willing to lend a helping hand and go above and beyond to ensure that everyone on the team is supported and empowered to do their best work. Aside from his work ethic, Josh is also just a genuinely kind and compassionate person. He consistently is showing empathy and understanding towards his colleagues, and his positive energy is contagious. Overall, I have no doubt that Josh would be a valuable asset to any team, and I wholeheartedly endorse him for any future opportunities"',
+      image:"https://i.imgur.com/HIzhNBg.jpg",
+      name: "Justin Cryer",
+      company: "MechOne"
+  },
 ]

@@ -9,7 +9,7 @@ export default function Projects() {
         <div className="flex flex-col w-full mb-20">
           <SiXcode className="mx-auto inline-block w-12 h-20 mb-4 mt-20" />
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-stone-300">
-            Projects
+            Past Projects
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-stone-300">
             Here are some applications I have built using different frameworks and languages.<br></br> Hover/click on images to see a small description of each site and the technologies used.

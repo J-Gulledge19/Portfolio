@@ -68,7 +68,7 @@ export default function Contact() {
             Contact Me <MdOutlineConnectWithoutContact className="inline"/>
           </h2>
           <p className="leading-relaxed mb-5 text-stone-300">
-            I would appriciate any opportunity or feed back you may have. Feel free to reach out and have a great day! 
+          Feel free to reach out and contact me! I would appriciate any opportunity or feed back you may have. Have a great day! 
           </p>
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">

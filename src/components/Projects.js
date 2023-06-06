@@ -12,7 +12,7 @@ export default function Projects() {
             Past Projects
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-stone-300">
-            Here are some applications I have built using different frameworks and languages.<br></br> Hover/click on images to see a small description of each site and the technologies used.
+            Here are some applications I have built using different frameworks and languages.<br></br> Hover/click on images to see a small description of each site and the technologies used. <br></br>Websites may take a few seconds to load data as they are free deployments on Render.com.
           </p>
         </div>
         <div className="flex flex-wrap -m-4">

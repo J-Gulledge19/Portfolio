@@ -1,5 +1,14 @@
 export const projects = [
-    {
+  {
+    title: "Sheetmetal Job Tracker",
+    subtitle: "React and Django",
+    description:
+      "A website ment to track jobs for a sheetmetal shop. Built using React with Mobx in frontend and Django in the backend",
+    image: "https://i.imgur.com/wZnIpIo.jpg",
+    link: "https://lambent-khapse-5d4597.netlify.app/",
+    github: "https://github.com/J-Gulledge19/Sheetmetalfrontend",
+  },
+  {
       title: "Vehicle Maintenance",
       subtitle: "React/Typescript and Django",
       description:
@@ -16,15 +25,6 @@ export const projects = [
       image: "https://i.imgur.com/FWwQgws.jpg",
       link: "https://divelogtracker.netlify.app/",
       github: "https://github.com/J-Gulledge19/DiveLogFrontend",
-    },
-    {
-      title: "Sheetmetal Job Tracker",
-      subtitle: "Javascript and EJS",
-      description:
-        "A website ment to track jobs for a sheetmetal shop. Built using EJS to render templates on the frontend, Express and mongo in the backend",
-      image: "https://i.imgur.com/Eu8eblk.jpg",
-      link: "https://projecttwo.onrender.com",
-      github: "https://github.com/J-Gulledge19/Project-Two",
     },
     {
       title: "NHL Stats App",

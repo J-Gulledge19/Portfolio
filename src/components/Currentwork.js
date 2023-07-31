@@ -13,7 +13,7 @@ export default function CurrentWork() {
           </h1>
             <h1 className="grid grid-cols-2 gap-4 place-content-start h-8 sm:text-2xl text-2xl font-medium title-font mt-4 text-stone-300">Sayner Mobil</h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-stone-300">
-            <GiSilverBullet className="w-8 h-20 inline-block mb-4"/>A website for a gas station in northern Wisconsin. Currenlty in the planning stages awaiting customers specifications.</p>
+            <GiSilverBullet className="w-8 h-20 inline-block mb-4"/>Building website for a gas station in northern Wisconsin. Currenlty in the planning stages awaiting customers specifications.</p>
             <br></br>
             <h1 className="grid grid-cols-2 gap-4 place-content-start h-8 sm:text-2xl text-2xl font-medium title-font mt-4 text-stone-300">Job Tracker</h1>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-stone-300"> 

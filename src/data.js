@@ -76,6 +76,10 @@ export const skills = [
     skill:"MongoDB",
     image:"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Antu_mongodb.svg/2048px-Antu_mongodb.svg.png"
   },
+  {
+    skill:"Mobx",
+    image:"https://plugins.jetbrains.com/files/19896/222248/icon/pluginIcon.svg"
+  },
 ]
 
 export const testimonials = [

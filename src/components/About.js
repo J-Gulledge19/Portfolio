@@ -12,7 +12,7 @@ export default function About() {
             <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
               <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-stone-300">
                 Hi, I'm Josh.
-                <br className="hidden lg:inline-block" /> I enjoy problem solving and building new applications.
+                <br className="hidden lg:inline-block" /> I enjoy problem solving and learning new things.
               </h1>
               <p className="mb-8 leading-relaxed mt-10 mb-10 text-stone-300">
               I am a Full Stack Software Engineer who embraces challenges that rely heavily on my 10+ years of experience in problem solving and deductive reasoning. With a strong foundation of adaptability, creativity and collaboration,  I am looking to transition my proven analytical skills into the digital sector where I can continue to create and expand knowledge in software development.

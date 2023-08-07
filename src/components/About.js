@@ -20,17 +20,17 @@ export default function About() {
               <div className="flex justify-center">
                 <a 
                   href="https://www.linkedin.com/in/joshgulledge/"
-                  className="inline-flex text-white bg-blue-900 border-0 py-2 px-4 focus:outline-none hover:bg-sky-600 rounded text-md mr-2">
+                  className="inline-flex text-white bg-blue-800 border-0 py-2 px-4 focus:outline-none hover:bg-sky-600 rounded text-md mr-2">
                   My LinkedIn
                 </a>
                 <a 
                   href="https://github.com/J-Gulledge19"
-                  className="inline-flex text-white bg-blue-900 border-0 py-2 px-4 focus:outline-none hover:bg-sky-600 rounded text-md mr-2">
+                  className="inline-flex text-white bg-blue-800 border-0 py-2 px-4 focus:outline-none hover:bg-sky-600 rounded text-md mr-2">
                   My GitHub
                 </a>
                 <a 
                   href="https://docs.google.com/document/d/1Q2D7sv1Lea7w44XFhEabS5TpRDWhgKoIZ8oWKgwOBxw/edit?usp=sharing"
-                  className="inline-flex text-white bg-blue-900 border-0 py-2 px-4 focus:outline-none hover:bg-sky-600 rounded text-md mr-2">
+                  className="inline-flex text-white bg-blue-800 border-0 py-2 px-4 focus:outline-none hover:bg-sky-600 rounded text-md mr-2">
                   My Resume
                 </a>
               </div>

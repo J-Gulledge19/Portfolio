@@ -18,20 +18,28 @@ export default function About() {
               I am a Full Stack Software Engineer who embraces challenges that rely heavily on my 10+ years of experience in problem solving and deductive reasoning. With a strong foundation of adaptability, creativity and collaboration,  I am looking to transition my proven analytical skills into the digital sector where I can continue to create and expand knowledge in software development.
               </p>
               <div className="flex justify-center">
-                <a 
-                  href="https://www.linkedin.com/in/joshgulledge/"
-                  className="inline-flex text-white bg-blue-800 border-0 py-2 px-4 focus:outline-none hover:bg-sky-600 rounded text-md mr-2">
-                  My LinkedIn
+                <a href="https://www.linkedin.com/in/joshgulledge/" class="relative inline-flex items-center mr-1 px-8 py-1 overflow-hidden text-lg font-medium text-stone-300 border-2 border-blue-600 rounded-full hover:text-white group hover:bg-gray-50">
+                <span class="absolute left-0 block w-full h-0 transition-all bg-blue-600 opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
+                <span class="absolute right-0 flex items-center justify-start w-8 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                </span>
+                <span class="relative">My LinkedIn</span>
                 </a>
-                <a 
-                  href="https://github.com/J-Gulledge19"
-                  className="inline-flex text-white bg-blue-800 border-0 py-2 px-4 focus:outline-none hover:bg-sky-600 rounded text-md mr-2">
-                  My GitHub
+
+                <a href="https://github.com/J-Gulledge19" class="relative inline-flex items-center mr-1 px-8 py-1 overflow-hidden text-lg font-medium text-stone-300 border-2 border-blue-600 rounded-full hover:text-white group hover:bg-gray-50">
+                <span class="absolute left-0 block w-full h-0 transition-all bg-blue-600 opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
+                <span class="absolute right-0 flex items-center justify-start w-8 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                </span>
+                <span class="relative">My GitHub</span>
                 </a>
-                <a 
-                  href="https://docs.google.com/document/d/1Q2D7sv1Lea7w44XFhEabS5TpRDWhgKoIZ8oWKgwOBxw/edit?usp=sharing"
-                  className="inline-flex text-white bg-blue-800 border-0 py-2 px-4 focus:outline-none hover:bg-sky-600 rounded text-md mr-2">
-                  My Resume
+
+                <a href="https://docs.google.com/document/d/1Q2D7sv1Lea7w44XFhEabS5TpRDWhgKoIZ8oWKgwOBxw/edit?usp=sharing" class="relative inline-flex items-center px-8 py-1 overflow-hidden text-lg font-medium text-stone-300 border-2 border-blue-600 rounded-full hover:text-white group hover:bg-gray-50">
+                <span class="absolute left-0 block w-full h-0 transition-all bg-blue-600 opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
+                <span class="absolute right-0 flex items-center justify-start w-8 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                </span>
+                <span class="relative">My Resume</span>
                 </a>
               </div>
               <br></br>

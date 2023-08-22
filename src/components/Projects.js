@@ -1,4 +1,3 @@
-// import { CodeIcon } from "@heroicons/react/solid";
 import { SiXcode } from 'react-icons/si';
 import { projects } from "../data";
 

@@ -1,4 +1,3 @@
-// import { ChipIcon } from "@heroicons/react/solid";
 import { GiSkills } from "react-icons/gi"
 import { skills } from "../data";
 
@@ -19,7 +18,6 @@ export default function Skills() {
           {skills.map((skill) => (
             <div key={skill} className="p-2 sm:w-1/2 w-full">
               <div className="bg-gray-800 rounded flex p-4 h-full items-center">
-                {/* <BadgeCheckIcon className="text-green-400 w-6 h-6 flex-shrink-0 mr-4" /> */}
                   <img className="object-scale-down h-20 w-10 ml-4" src={skill.image} alt= ''/>
                 <span className="title-font font-medium text-white p-5">
                   {skill.skill}

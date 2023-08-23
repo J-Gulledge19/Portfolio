@@ -1,4 +1,3 @@
-// import { TerminalIcon, UsersIcon } from "@heroicons/react/solid";
 import { FaUsers, FaHandsHelping } from "react-icons/fa"
 import { testimonials } from "../data";
 

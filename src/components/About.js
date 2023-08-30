@@ -1,6 +1,13 @@
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+
 export default function About() {
+    useEffect(() => {
+        Aos.init({ duration: 6000 });
+      }, []);
     return (
-        <section id="about">
+        <section data-aos='flip-up' id="about">
           <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 px-10">
               <img

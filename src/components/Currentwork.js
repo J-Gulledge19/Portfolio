@@ -13,11 +13,11 @@ export default function CurrentWork() {
           </h1>
             <h1 className="grid grid-cols-2 gap-4 place-content-start h-8 sm:text-2xl text-2xl font-medium title-font mt-4 text-stone-300 text-decoration-line: underline">Sayner Mobil</h1>
           <p className="lg:w-3/4 mx-auto leading-relaxed text-base text-stone-300">
-            <GiSilverBullet className="w-8 h-20 inline-block mb-4 mr-5"/>Building website for a gas station in northern Wisconsin. Currenlty in the planning stages awaiting customers specifications.</p>
+            <GiSilverBullet className="w-8 h-20 inline-block mb-4 mr-5"/>Finished building website for a gas station in northern Wisconsin. Currently maintaining data on website as needed.</p>
             <br></br>
             <h1 className="grid grid-cols-2 gap-4 place-content-start h-8 sm:text-2xl text-2xl font-medium title-font mt-4 text-stone-300 text-decoration-line: underline">Job Tracker</h1>
             <p className="lg:w-3/4 mx-auto leading-relaxed text-base text-stone-300"> 
-            <GiSilverBullet className="w-8 h-20 inline-block mb-4 mr-5"/>Rebuilding my Sheetmetal Job Tracker website using Python, React and adding in Mobx for scalability. Hoping to make it easier for sheetmetal shops to track a job's downloads and due dates.
+            <GiSilverBullet className="w-8 h-20 inline-block mb-4 mr-5"/>Finished rebuilding my Sheetmetal Job Tracker website using Python, React and adding in Mobx for scalability. Hoping to introduce it to companies and customize it to their needs.
           </p>
         </div>
       </div>

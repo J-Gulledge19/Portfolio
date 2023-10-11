@@ -40,8 +40,8 @@ export default function Contact() {
               style={{ filter: "opacity(0.7)" }}
               src="https://www.google.com/maps/embed/v1/place?q=Elbert,+CO,+USA&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
             />
-            <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
-              <div className="lg:w-1/2 px-6">
+            <div className="bg-gray-900 relative flex flex-wrap py-4 px-8 rounded shadow-md">
+              <div className="lg:w-1/2 px-2">
                 <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                   ADDRESS
                 </h2>
@@ -49,7 +49,7 @@ export default function Contact() {
                   Elbert, CO 80106
                 </p>
               </div>
-              <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
+              <div className="lg:w-1/2 mt-4 lg:mt-0">
                 <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                   EMAIL
                 </h2>

@@ -44,7 +44,9 @@ export default function About() {
               </div>
               <br></br>
             </div>
-
+          </div>
+          <div className="container px-5 py-10 mx-auto text-center lg:px-40">
+            <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-stone-300">The man behind the Software Engineer</h1>
           </div>
         </section>
       );

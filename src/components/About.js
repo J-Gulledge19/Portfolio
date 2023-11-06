@@ -47,6 +47,9 @@ export default function About() {
           </div>
           <div className="container px-5 py-10 mx-auto text-center lg:px-40">
             <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-stone-300">The man behind the Software Engineer</h1>
+            <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-stone-300">
+            I enjoy spending time with my family and friends. As well as spending my free time shooting, gaming, playing hockey, and fishing/hunting. I also love building and designing new things whether its a new application or a at home project! I am always looking for new ways to learn and grow as a person and a developer. Here are some things I have built and designed in my free time.
+          </p>
           </div>
         </section>
       );

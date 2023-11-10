@@ -117,3 +117,18 @@ export const testimonials = [
       company: "MechOne"
   },
 ]
+
+export const aboutMe = [
+  {
+    image:"",
+    description:""
+  },
+  {
+    image:"",
+    description:""
+  },
+  {
+    image:"",
+    description:""
+  },
+]

@@ -120,15 +120,15 @@ export const testimonials = [
 
 export const aboutMe = [
   {
-    image:"",
-    description:""
+    image:"https://i.imgur.com/sAFeTha.jpg",
+    description:"This is a 4' clock I made for my sister. It is made out of cedar and black iron."
   },
   {
-    image:"",
-    description:""
+    image:"https://i.imgur.com/3rafCYf.jpg",
+    description:"I made this tool cart for my dad."
   },
   {
-    image:"",
-    description:""
+    image:"https://i.imgur.com/wbPjypy.jpg",
+    description:"I built this windmill for my mom to cover up the top of the well pump in their front yard."
   },
 ]

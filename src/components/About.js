@@ -1,10 +1,8 @@
-import { aboutMe } from "../data";
-
 export default function About() {
     return (
         <section id="about">
           <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center mt-20">
-          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 px-10">
+          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-5 px-10">
               <img
                 className="object-cover object-center rounded"
                 alt="hero"
@@ -46,26 +44,6 @@ export default function About() {
               </div>
               <br></br>
             </div>
-          </div>
-          <div className="container px-5 py-10 mx-auto text-center lg:px-40 mt-20">
-                <div className="flex flex-col w-full mb-20">
-                  <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-stone-300">The man behind the Software Engineer</h1>
-                  <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-stone-300">
-                  I enjoy spending time with my family and friends. As well as spending my free time shooting, gaming, playing hockey, and fishing/hunting. I also love building and designing new things whether its a new application or a at home project! I am always looking for new ways to learn and grow as a person and a developer. Here are some things I have built and designed in my free time.
-                </p>
-                </div>
-              <div className="flex flex-wrap justify-center -m-4">
-              {aboutMe.map((aboutMe) => (
-                <div className="sm:w-1/3 w-80 h-auto p-4 text-center mb-10">
-                    <img
-                      alt="gallery"
-                      className="w-full h-full object-center m-auto px-2"
-                      src={aboutMe.image}
-                    />
-                      <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-stone-300">{aboutMe.description}</p>
-                </div>
-              ))}
-              </div>
           </div>
         </section>
       );

@@ -125,7 +125,7 @@ export const aboutMe = [
   },
   {
     image:"https://i.imgur.com/3rafCYf.jpg",
-    description:"This tool cart I welded from scratch for my dad."
+    description:"A tool cart I made for my dad."
   },
   {
     image:"https://i.imgur.com/wbPjypy.jpg",

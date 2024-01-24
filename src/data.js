@@ -121,7 +121,7 @@ export const testimonials = [
 export const aboutMe = [
   {
     image:"https://i.imgur.com/sAFeTha.jpg",
-    description:"A 4' clock I made for my sister. It's made out of cedar and black iron."
+    description:"A 4' clock I made for my sister. It's constructed using cedar and black iron."
   },
   {
     image:"https://i.imgur.com/3rafCYf.jpg",

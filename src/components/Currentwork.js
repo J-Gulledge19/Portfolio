@@ -5,7 +5,7 @@ import { GiSilverBullet } from 'react-icons/gi';
 export default function CurrentWork() {
   return (
     <section id="currentwork" className="text-gray-400 bg-gray-900 body-font">
-      <div className="container px-5 py-10 mx-auto text-center lg:px-40">
+      <div className="container px-5 py-10 mx-auto text-center lg:px-40 mt-15">
         <div className="flex flex-col w-full mb-20">
           <GiAutoRepair className="mx-auto inline-block w-12 h-20 mb-4 mt-20" />
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-stone-300">

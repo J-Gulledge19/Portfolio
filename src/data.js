@@ -117,3 +117,18 @@ export const testimonials = [
       company: "MechOne"
   },
 ]
+
+export const aboutMe = [
+  {
+    image:"https://i.imgur.com/sAFeTha.jpg",
+    description:"A 4' clock I made for my sister. It's constructed using cedar and black iron."
+  },
+  {
+    image:"https://i.imgur.com/3rafCYf.jpg",
+    description:"A tool cart I made for my dad."
+  },
+  {
+    image:"https://i.imgur.com/wbPjypy.jpg",
+    description:"I built this windmill for my mom to cover up the top of a well pump."
+  },
+]

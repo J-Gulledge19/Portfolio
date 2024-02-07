@@ -1,8 +1,8 @@
 export default function About() {
     return (
         <section id="about">
-          <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
-          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 px-10">
+          <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center mt-20">
+          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-5 px-10">
               <img
                 className="object-cover object-center rounded"
                 alt="hero"
@@ -44,7 +44,6 @@ export default function About() {
               </div>
               <br></br>
             </div>
-
           </div>
         </section>
       );

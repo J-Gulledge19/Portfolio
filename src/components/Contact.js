@@ -1,4 +1,5 @@
 import React from "react";
+import Popup from 'reactjs-popup';
 import { MdOutlineConnectWithoutContact } from "react-icons/md"
 
 export default function Contact() {
@@ -22,8 +23,8 @@ export default function Contact() {
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
         body: encode({ "form-name": "contact", name, email, message }),
       })
-        .then(() => alert("Message sent!"))
-        .catch((error) => alert(error));
+        // .then(() => alert("Message sent!"))
+        // .catch((error) => alert(error));
     }
     return (
       <section id="contact" className="relative">
@@ -107,11 +108,31 @@ export default function Contact() {
               onChange={(e) => setMessage(e.target.value)}
             />
           </div>
-          <button
+          <Popup trigger=
+          {<button
             type="submit"
             className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
             Submit
-          </button>
+          </button>}  
+                modal nested>
+                {
+                    close => (
+                        <div className='p-8 mt-10'>
+                            <div className='bg-white w-1/2 mx-auto p-4 rounded-md shadow-lg bg-gray-50'>
+                                <h1 className="text-2xl font-bold text-blue-500 mb-4">
+                                  Message sent! Thank you for reaching out! I will get back to you as soon as possible.
+                                </h1>
+                              <div className="text-right">
+                                <button className="inline-block bg-blue-500 py-2 px-4 text-white rounded-md font-semibold uppercase text-sm " onClick=
+                                    {() => close()}>
+                                        Close modal
+                                </button>
+                              </div>
+                            </div>
+                        </div>
+                    )
+                }
+            </Popup>
         </form>
       </div>
     </section>

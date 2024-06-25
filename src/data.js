@@ -71,7 +71,7 @@ export const skills = [
   },
   {
     skill:"Express",
-    image:"https://www.nextontop.com/assets/img/services/web/expressjs.svg"
+    image:"https://adware-technologies.s3.amazonaws.com/uploads/technology/thumbnail/20/express-js.png"
   },
   {
     skill:"HTML",

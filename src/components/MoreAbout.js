@@ -17,7 +17,7 @@ export default function MoreAbout() {
                 <div className="sm:w-1/3 w-80 h-auto p-4 text-center mb-10">
                     <img
                       alt="gallery"
-                      className="w-full h-full object-center m-auto px-2"
+                      className="w-full h-full object-center m-auto px-2 rounded-3xl shadow-xl shadow-black"
                       src={aboutMe.image}
                     />
                       <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-stone-300">{aboutMe.description}</p>

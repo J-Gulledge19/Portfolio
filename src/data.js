@@ -1,5 +1,14 @@
 export const projects = [
   {
+    title: "Sayner Mobil",
+    subtitle: "React/Tailwind",
+    description:
+      "Custom-built gas station website, designed to customers' needs and specifications.",
+    image: "https://i.imgur.com/Lt6BYdc.jpg",
+    link: "https://saynermobil.com/",
+    github: "https://github.com/J-Gulledge19/saynermobil",
+  },
+  {
     title: "Sheetmetal Job Tracker",
     subtitle: "React and Django",
     description:
@@ -62,7 +71,7 @@ export const skills = [
   },
   {
     skill:"Express",
-    image:"https://www.nextontop.com/assets/img/services/web/expressjs.svg"
+    image:"https://adware-technologies.s3.amazonaws.com/uploads/technology/thumbnail/20/express-js.png"
   },
   {
     skill:"HTML",
@@ -106,5 +115,20 @@ export const testimonials = [
       image:"https://i.imgur.com/HIzhNBg.jpg",
       name: "Justin Cryer",
       company: "MechOne"
+  },
+]
+
+export const aboutMe = [
+  {
+    image:"https://i.imgur.com/sAFeTha.jpg",
+    description:"A 4' clock I made for my sister. It's constructed using cedar and black iron."
+  },
+  {
+    image:"https://i.imgur.com/3rafCYf.jpg",
+    description:"A tool cart I made for my dad."
+  },
+  {
+    image:"https://i.imgur.com/wbPjypy.jpg",
+    description:"I built this windmill for my mom to cover up the top of a well pump."
   },
 ]

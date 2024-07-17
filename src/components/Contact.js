@@ -1,4 +1,5 @@
 import React from "react";
+import Popup from 'reactjs-popup';
 import { MdOutlineConnectWithoutContact } from "react-icons/md"
 
 export default function Contact() {
@@ -22,13 +23,13 @@ export default function Contact() {
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
         body: encode({ "form-name": "contact", name, email, message }),
       })
-        .then(() => alert("Message sent!"))
-        .catch((error) => alert(error));
+        // .then(() => alert("Message sent!"))
+        // .catch((error) => alert(error));
     }
     return (
       <section id="contact" className="relative">
         <div  data-aos="fade-up" data-aos-duration="1000" className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
-          <div className="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+          <div className="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative shadow-2xl shadow-black">
             <iframe
               width="100%"
               height="100%"
@@ -40,8 +41,8 @@ export default function Contact() {
               style={{ filter: "opacity(0.7)" }}
               src="https://www.google.com/maps/embed/v1/place?q=Elbert,+CO,+USA&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
             />
-            <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
-              <div className="lg:w-1/2 px-6">
+            <div className="bg-gray-900 relative flex flex-wrap py-4 px-8 rounded shadow-md">
+              <div className="lg:w-1/2 px-2">
                 <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                   ADDRESS
                 </h2>
@@ -49,7 +50,7 @@ export default function Contact() {
                   Elbert, CO 80106
                 </p>
               </div>
-              <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
+              <div className="lg:w-1/2 mt-4 lg:mt-0">
                 <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                   EMAIL
                 </h2>
@@ -107,11 +108,31 @@ export default function Contact() {
               onChange={(e) => setMessage(e.target.value)}
             />
           </div>
-          <button
+          <Popup trigger=
+          {<button
             type="submit"
             className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
             Submit
-          </button>
+          </button>}  
+                modal nested>
+                {
+                    close => (
+                        <div className='p-8 mt-10'>
+                            <div className='bg-gray-50 w-1/2 mx-auto p-4 rounded-md shadow-2xl'>
+                                <h1 className="text-xl font-bold text-stone-800 mb-4">
+                                  Message sent! Thank you for reaching out! I will get back to you as soon as possible.
+                                </h1>
+                              <div className="text-right">
+                                <button className="font-large shadow-xl w-20 h-10 text-gray-900 rounded-lg group bg-gradient-to-br from-cyan-500 to-blue-500 group-hover:from-cyan-500 group-hover:to-blue-500 hover:text-white dark:text-white" onClick=
+                                    {() => close()}>
+                                        Close
+                                </button>
+                              </div>
+                            </div>
+                        </div>
+                    )
+                }
+            </Popup>
         </form>
       </div>
     </section>

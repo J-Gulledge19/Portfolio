@@ -10,13 +10,13 @@ export default function Projects() {
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-stone-300">
             Past Projects
           </h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-stone-300">
+          <p  data-aos="fade-up" data-aos-duration="1000" className="lg:w-2/3 mx-auto leading-relaxed text-base text-stone-300">
             Here are some applications I have built using different frameworks and languages.<br></br> Hover/click on images to see a small description of each site and the technologies used. <br></br>Websites may take a few seconds to load data as they are free deployments on Render.com.
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
           {projects.map((project) => (
-            <div className="sm:w-1/2 w-100 p-4">
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="bottom-bottom" className="sm:w-1/2 w-100 p-4">
               <div className="flex relative">
                 <img
                   alt="gallery"

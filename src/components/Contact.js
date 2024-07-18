@@ -23,12 +23,12 @@ export default function Contact() {
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
         body: encode({ "form-name": "contact", name, email, message }),
       })
-        // .then(() => alert("Message sent!"))
-        // .catch((error) => alert(error));
+        .then(() => alert("Message sent!"))
+        .catch((error) => alert(error));
     }
     return (
       <section id="contact" className="relative">
-        <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
+        <div  data-aos="fade-up" data-aos-duration="1000" className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
           <div className="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative shadow-2xl shadow-black">
             <iframe
               width="100%"

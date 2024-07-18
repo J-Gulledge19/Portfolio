@@ -17,11 +17,13 @@ export default function Skills() {
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
           {skills.map((skill) => (
             <div key={skill} className="p-2 sm:w-1/2 w-full">
-              <div className="bg-gray-800 rounded flex p-4 h-full items-center shadow-2xl shadow-black">
-                  <img className="object-scale-down h-20 w-10 ml-4" src={skill.image} alt= ''/>
-                <span className="title-font font-medium text-white p-5">
-                  {skill.skill}
-                </span>
+              <div data-aos="fade-up" data-aos-duration="1000">
+                  <div className="bg-gray-800 rounded flex p-4 h-full items-center shadow-2xl shadow-black">
+                      <img className="object-scale-down h-20 w-10 ml-4" src={skill.image} alt= ''/>
+                    <span className="title-font font-medium text-white p-5">
+                      {skill.skill}
+                    </span>
+                </div>
               </div>
             </div>
           ))}

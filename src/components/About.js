@@ -2,7 +2,7 @@ export default function About() {
 
     return (
       <section id="about">
-          <div data-aos="slide-up" data-aos-offset="200" data-aos-easing="ease-out" data-aos-duration="900" className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center mt-20">
+          <div data-aos="fade-up" data-aos-duration="1000" className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center mt-20">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-5 px-10">
               <img
                 className="object-cover object-center rounded-2xl shadow-2xl shadow-black"

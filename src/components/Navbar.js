@@ -2,9 +2,7 @@ import { ArrowRightIcon } from "@heroicons/react/solid";
 
 export default function Navbar() {
   return (
-    <header data-aos="fade-right" data-aos-duration="1000" className="bg-gray-800 md:sticky top-0 z-10">
-      <div  className="container mx-auto flex flex-wrap p-4 flex-col md:flex-row items-center">
-    <header className="bg-gray-800 md:sticky top-0 z-10 shadow-xl shadow-black">
+    <header data-aos="fade-right" data-aos-duration="1000" className="bg-gray-800 md:sticky top-0 z-10 shadow-xl shadow-black">
       <div className="container mx-auto flex flex-wrap p-4 flex-col md:flex-row items-center">
         <h1 className="title-font font-medium text-stone-300 hover:text-blue-500 hover:scale-110 mb-4 md:mb-0">
           <a href="#about" className="ml-3 text-xl">
@@ -44,8 +42,6 @@ export default function Navbar() {
           <span class="relative inline-flex items-center">Contact Me <ArrowRightIcon className="w-4 h-4 ml-1" /></span>
         </a>
       </div>
-    </header>
-    </div>
     </header>
   );
 }

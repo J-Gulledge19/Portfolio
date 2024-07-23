@@ -12,7 +12,7 @@ export default function Testimonials() {
         <div className="flex flex-wrap m-4">
           {testimonials.map((testimonial) => (
             <div className="p-4 md:w-1/2 w-full">
-              <div className="h-full bg-gray-800 bg-opacity-40 p-8 rounded shadow-2xl shadow-black">
+              <div data-aos="fade-up" data-aos-duration="1000" className="h-full bg-gray-800 bg-opacity-40 p-8 rounded shadow-2xl shadow-black">
                 <FaHandsHelping className="block w-10 h-5 text-gray-500 mb-4" />
                 <p className="leading-relaxed mb-6">{testimonial.quote}</p>
                 <div className="inline-flex items-center">

@@ -36,6 +36,15 @@ export const projects = [
       github: "https://github.com/J-Gulledge19/DiveLogFrontend",
     },
     {
+      title: "Cookbook",
+      subtitle: "HTML, Bootstrap, Javascript, React, MongoDB",
+      description:
+        "Inventory application for cooking recipes A full stack application built through team collaboration",
+      image: "https://i.imgur.com/WW9EOQq.png",
+      link: "https://eloquent-lamington-0aa9c1.netlify.app/",
+      github: "https://github.com/J-Gulledge19/Project3_frontend",
+    },
+    {
       title: "NHL Stats App",
       subtitle: "Javascript",
       description:
